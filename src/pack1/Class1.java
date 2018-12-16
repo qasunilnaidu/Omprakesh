@@ -11,6 +11,7 @@ public class Class1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 WebDriver driver = new FirefoxDriver();
+//Comment messahe
 driver.get("http://testingmasters.com/hrm/symfony/web/index.php/auth/login");
 driver.manage().window().maximize();
 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
